@@ -1,0 +1,100 @@
+v 20150930 2
+C 36100 44100 1 0 0 transformer-1.sym
+{
+T 36400 45400 5 10 1 1 0 0 1
+refdes=T1
+T 36400 45400 5 10 0 0 0 0 1
+device=transformer
+}
+C 39900 43700 1 90 0 diode-bridge-1.sym
+{
+T 38800 44675 5 10 1 1 0 0 1
+refdes=U1
+T 39825 44900 5 8 0 0 90 0 1
+device=DIODE-BRIDGE
+}
+N 37600 45200 37600 45700 4
+N 37600 45700 38900 45700 4
+N 37600 44200 37600 43700 4
+N 37600 43700 38900 43700 4
+C 37800 44400 1 0 0 gnd-1.sym
+C 44000 44200 1 0 0 lm317-1.sym
+{
+T 44300 45900 5 10 0 0 0 0 1
+device=LM317
+T 45700 45600 5 10 1 1 0 6 1
+refdes=U2
+}
+C 46500 41800 1 90 0 pot-1.sym
+{
+T 45600 42600 5 10 0 0 90 0 1
+device=VARIABLE_RESISTOR
+T 46100 42400 5 10 1 1 90 0 1
+refdes=R?
+T 45000 42600 5 10 0 0 90 0 1
+footprint=none
+}
+C 45000 43400 1 0 0 resistor-2.sym
+{
+T 45400 43750 5 10 0 0 0 0 1
+device=RESISTOR
+T 45200 43700 5 10 1 1 0 0 1
+refdes=R?
+}
+C 47300 39700 1 0 0 resistor-2.sym
+{
+T 47700 40050 5 10 0 0 0 0 1
+device=RESISTOR
+T 47500 40000 5 10 1 1 0 0 1
+refdes=R?
+}
+C 43800 43000 1 90 0 capacitor-1.sym
+{
+T 43100 43200 5 10 0 0 90 0 1
+device=CAPACITOR
+T 43300 43600 5 10 1 1 180 0 1
+refdes=C?
+T 42900 43200 5 10 0 0 90 0 1
+symversion=0.1
+}
+C 48400 44500 1 0 0 capacitor-1.sym
+{
+T 48600 45200 5 10 0 0 0 0 1
+device=CAPACITOR
+T 48600 45000 5 10 1 1 0 0 1
+refdes=C?
+T 48600 45400 5 10 0 0 0 0 1
+symversion=0.1
+}
+C 42100 42700 1 270 0 capacitor-2.sym
+{
+T 42800 42500 5 10 0 0 270 0 1
+device=POLARIZED_CAPACITOR
+T 42600 42300 5 10 1 1 0 0 1
+refdes=C?
+T 43000 42500 5 10 0 0 270 0 1
+symversion=0.1
+}
+C 49200 42400 1 0 0 capacitor-2.sym
+{
+T 49400 43100 5 10 0 0 0 0 1
+device=POLARIZED_CAPACITOR
+T 49400 42900 5 10 1 1 0 0 1
+refdes=C?
+T 49400 43300 5 10 0 0 0 0 1
+symversion=0.1
+}
+C 45100 47100 1 180 0 diode-1.sym
+{
+T 44700 46500 5 10 0 0 180 0 1
+device=DIODE
+T 44800 47300 5 10 1 1 180 0 1
+refdes=D?
+}
+C 48100 40700 1 0 0 diode-1.sym
+{
+T 48500 41300 5 10 0 0 0 0 1
+device=DIODE
+T 48400 41200 5 10 1 1 0 0 1
+refdes=D?
+}
