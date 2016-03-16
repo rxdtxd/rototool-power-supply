@@ -1,0 +1,12 @@
+.START
+..device             value    footprint  quantity  refdes
+CAPACITOR            100n     unknown    1         C2
+CONNECTOR_2          unknown  unknown    2         LOAD MAINS
+DIODE-BRIDGE         unknown  unknown    1         U1
+LM317                unknown  unknown    1         U2
+POLARIZED_CAPACITOR  10u      unknown    1         C3
+POLARIZED_CAPACITOR  470u     unknown    1         C1
+RESISTOR             240      unknown    1         R1
+transformer          15V      unknown    1         T1
+VARIABLE_RESISTOR    2.2k     none       1         R2
+.END
